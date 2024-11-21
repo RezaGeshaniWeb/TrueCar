@@ -1,0 +1,89 @@
+@media screen and (min-width: 576px) {
+    main {
+        >header {
+            .offcanvas-bs {
+                width: 50% !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        >header {
+            .offcanvas-bs {
+                width: 40% !important;
+            }
+        }
+
+        >.car-buying {
+            height: 100vh !important;
+
+            .h-md-100 {
+                height: 100% !important;
+            }
+
+            .form-car {
+                width: 450px !important;
+            }
+        }
+
+        >.sell {
+            .sell1,
+            .sell2 {
+                width: 50% !important;
+            }
+
+            .sell1 {
+                transform: translateX(-12px);
+            }
+            
+            .sell2 {
+                transform: translateX(12px);
+            }
+        }
+
+        >footer {
+            .border-md-0 {
+                border: none !important;
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        >.review {
+
+            .change-position {
+                top: 10px;
+                left: -50px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        >header {
+
+            .menu-offcanvas,
+            .mobile-search {
+                display: none;
+            }
+
+            .aModal {
+                font-size: 15px !important;
+                font-weight: 400 !important;
+            }
+        }
+        
+        >.car-buying {
+            >div {
+                background-position: 30%;
+            }
+        }
+    }
+}

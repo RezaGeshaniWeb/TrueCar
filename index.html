@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>True Car</title>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!-- Bootstrap Icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/master.css">
+        <link rel="stylesheet" href="assets/css/global.css">
+</head>
+
+<body>
+        <main>
+                <header class="bg-black container-fluid">
+                        <div
+                                class="container-xxl h-100 d-flex align-items-center justify-content-between position-relative">
+                                <div class="d-flex align-items-center">
+                                        <!-- offcanvas -->
+                                        <i class="bi bi-list fs-1 text-white pointer menu-offcanvas"
+                                                data-bs-toggle="offcanvas" href="#offcanvasExample">
+                                        </i>
+
+                                        <div class="offcanvas offcanvas-start w-65 offcanvas-bs" tabindex="-1"
+                                                id="offcanvasExample">
+                                                <div class="offcanvas-header border-bottom border-dark">
+                                                        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                                                </div>
+                                                <div class="accordion-bs">
+                                                        <!-- accordion -->
+                                                        <div class="accordion accordion-flush"
+                                                                id="accordionFlushExample">
+                                                                <div class="accordion-item p-1">
+                                                                        <h2 class="accordion-header">
+                                                                                <button class="accordion-button collapsed fw-bold"
+                                                                                        data-bs-toggle="collapse"
+                                                                                        data-bs-target="#flush-collapseOne">
+                                                                                        New Cars
+                                                                                </button>
+                                                                        </h2>
+                                                                        <div id="flush-collapseOne"
+                                                                                class="accordion-collapse collapse"
+                                                                                data-bs-parent="#accordionFlushExample">
+                                                                                <ul
+                                                                                        class="accordion-body list-unstyled">
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Build
+                                                                                                        and
+                                                                                                        Price</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Deals</a>
+                                                                                        </li>
+                                                                                        <hr>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">New
+                                                                                                        EVs</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">New
+                                                                                                        SUVs</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">New
+                                                                                                        Trucks</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">New
+                                                                                                        Vans</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">New
+                                                                                                        Convertibles</a>
+                                                                                        </li>
+                                                                                </ul>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="accordion-item p-1">
+                                                                        <h2 class="accordion-header">
+                                                                                <button class="accordion-button collapsed fw-bold"
+                                                                                        data-bs-toggle="collapse"
+                                                                                        data-bs-target="#flush-collapseTwo">
+                                                                                        Used Cars
+                                                                                </button>
+                                                                        </h2>
+                                                                        <div id="flush-collapseTwo"
+                                                                                class="accordion-collapse collapse"
+                                                                                data-bs-parent="#accordionFlushExample">
+                                                                                <ul
+                                                                                        class="accordion-body list-unstyled">
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Buy
+                                                                                                        Online</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        Cars
+                                                                                                        Search</a></li>
+                                                                                        <hr>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        Car
+                                                                                                        Listings</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        EVs</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        SUVs</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        Certified
+                                                                                                        Pre-Owned</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        Trucks</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        Vans</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        Convertibles</a>
+                                                                                        </li>
+                                                                                </ul>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="accordion-item p-1">
+                                                                        <h2 class="accordion-header">
+                                                                                <button class="accordion-button collapsed fw-bold"
+                                                                                        data-bs-toggle="collapse"
+                                                                                        data-bs-target="#flush-collapseThree">
+                                                                                        Electric Cars
+                                                                                </button>
+                                                                        </h2>
+                                                                        <div id="flush-collapseThree"
+                                                                                class="accordion-collapse collapse"
+                                                                                data-bs-parent="#accordionFlushExample">
+                                                                                <ul
+                                                                                        class="accordion-body list-unstyled">
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">EV
+                                                                                                        Hub</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">New
+                                                                                                        EVs</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        EVs</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Used
+                                                                                                        Teslas</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">EV
+                                                                                                        Incentives</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">EV
+                                                                                                        Deals</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Best
+                                                                                                        EVs</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Buyer's
+                                                                                                        Guide</a></li>
+                                                                                </ul>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="accordion-item p-1 border-bottom">
+                                                                        <h2 class="accordion-header">
+                                                                                <button class="accordion-button collapsed fw-bold"
+                                                                                        data-bs-toggle="collapse"
+                                                                                        data-bs-target="#flush-collapseFour">
+                                                                                        Research
+                                                                                </button>
+                                                                        </h2>
+                                                                        <div id="flush-collapseFour"
+                                                                                class="accordion-collapse collapse"
+                                                                                data-bs-parent="#accordionFlushExample">
+                                                                                <ul
+                                                                                        class="accordion-body list-unstyled">
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Car
+                                                                                                        Reviews</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Car
+                                                                                                        Rankings</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Compare
+                                                                                                        Cars</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Car
+                                                                                                        Finder Quiz</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Buying
+                                                                                                        Power
+                                                                                                        Calculator</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Auto
+                                                                                                        Loan
+                                                                                                        Calculator</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Lease
+                                                                                                        a
+                                                                                                        Car</a></li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Electric
+                                                                                                        Vehicles</a>
+                                                                                        </li>
+                                                                                        <li class="px-2 py-3"><a
+                                                                                                        href="#"
+                                                                                                        class="text-dark link-accordion">Research
+                                                                                                        Center</a></li>
+                                                                                </ul>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <!-- end accordion -->
+                                                        <ul class="list-unstyled">
+                                                                <li class="py-3 px-4 border-bottom"><a href="#"
+                                                                                class="link-accordion text-dark ">Sell
+                                                                                Your Car</a></li>
+                                                                <li class="py-3 px-4"><a href="#"
+                                                                                class="link-accordion text-dark">Sign
+                                                                                In</a></li>
+                                                                <li class="py-3 px-4"><a href="#"
+                                                                                class="link-accordion text-dark">Privacy
+                                                                                Policy</a>
+                                                                </li>
+                                                                <li class="py-3 px-4"><a href="#"
+                                                                                class="link-accordion text-dark">California
+                                                                                Privacy</a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                        <!-- end offcanvas -->
+
+                                        <figure class="h-100 d-flex align-items-center pt-2 ms-2">
+                                                <img src="assets/img/logo.avif" alt="">
+                                        </figure>
+
+                                        <!-- navs -->
+                                        <nav>
+                                                <ul class="nav nav-tabs d-none d-xl-flex border-0">
+                                                        <li class="nav-item dropdown not-border">
+                                                                <a class="nav-link dropdown-toggle text-white"
+                                                                        data-bs-toggle="dropdown" href="#">New</a>
+                                                                <ul class="dropdown-menu mt-2">
+                                                                        <li><a class="dropdown-item pe-5" href="#">Build
+                                                                                        and
+                                                                                        Price</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item pe-5"
+                                                                                        href="#">Deals</a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <hr class="dropdown-divider">
+                                                                        </li>
+                                                                        <li>
+                                                                                <a class="dropdown-item pe-5"
+                                                                                        href="#">New
+                                                                                        EVs</a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a class="dropdown-item pe-5"
+                                                                                        href="#">New
+                                                                                        SUVs</a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a class="dropdown-item pe-5"
+                                                                                        href="#">New
+                                                                                        Trucks</a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a class="dropdown-item pe-5"
+                                                                                        href="#">New
+                                                                                        Vans</a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a class="dropdown-item pe-5"
+                                                                                        href="#">New
+                                                                                        Convertibles</a>
+                                                                        </li>
+                                                                </ul>
+                                                        </li>
+                                                        <li class="nav-item dropdown">
+                                                                <a class="nav-link dropdown-toggle  text-white"
+                                                                        data-bs-toggle="dropdown" href="#">Used</a>
+                                                                <ul class="dropdown-menu mt-2">
+                                                                        <li><a class="dropdown-item pe-5" href="#">Buy
+                                                                                        Online</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        Cars Search</a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <hr class="dropdown-divider">
+                                                                        </li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        Cars Listening</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        EVs</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        SUVs</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        Certified Pre-Owned</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        Trucks</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        Vans</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        Convertibles</a>
+                                                                        </li>
+                                                                </ul>
+                                                        </li>
+                                                        <li class="nav-item dropdown">
+                                                                <a class="nav-link dropdown-toggle text-white"
+                                                                        data-bs-toggle="dropdown" href="#">Electric</a>
+                                                                <ul class="dropdown-menu mt-2">
+                                                                        <li><a class="dropdown-item pe-5" href="#">EV
+                                                                                        Hub</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">New
+                                                                                        EVs</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        EVs</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Used
+                                                                                        Teslas</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">EV
+                                                                                        Incentives</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">EV
+                                                                                        Deals</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Best
+                                                                                        EVs</a></li>
+                                                                        <li><a class="dropdown-item pe-5"
+                                                                                        href="#">Buyer's Guide</a></li>
+                                                                </ul>
+                                                        </li>
+                                                        <li class="nav-item dropdown">
+                                                                <a class="nav-link dropdown-toggle text-white"
+                                                                        data-bs-toggle="dropdown" href="#">Research</a>
+                                                                <ul class="dropdown-menu mt-2">
+                                                                        <li><a class="dropdown-item pe-5" href="#">Car
+                                                                                        Reviews</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Car
+                                                                                        Rankings</a></li>
+                                                                        <li><a class="dropdown-item pe-5"
+                                                                                        href="#">Compare Cars</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Car
+                                                                                        Finder Quiz</a></li>
+                                                                        <li><a class="dropdown-item pe-5"
+                                                                                        href="#">Buying Power
+                                                                                        Calculator</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Auto
+                                                                                        Loan Calculator</a></li>
+                                                                        <li><a class="dropdown-item pe-5" href="#">Lease
+                                                                                        a Car</a></li>
+                                                                        <li><a class="dropdown-item pe-5"
+                                                                                        href="#">Electric Vehicles</a>
+                                                                        </li>
+                                                                        <li><a class="dropdown-item pe-5"
+                                                                                        href="#">Research Center</a>
+                                                                        </li>
+                                                                </ul>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link text-white" href="#">Sell Your
+                                                                        Car</a>
+                                                        </li>
+                                                </ul>
+                                        </nav>
+                                        <!-- end navs -->
+                                </div>
+
+                                <div class="d-flex">
+
+                                        <form autocomplete="off" spellcheck="false"
+                                                class="rounded-5 bg-white d-none d-xl-flex me-4 overflow-hidden">
+                                                <i class="bi bi-search fs-5 p-1 ps-3"></i>
+                                                <input type="text" placeholder="Search"
+                                                        class="border-0 p-2 pe-5 formHeader fs-6">
+                                        </form>
+
+                                        <i class="bi bi-search fs-5 text-white mobile-search me-4"
+                                                data-bs-toggle="modal" data-bs-target="#exampleModal2"></i>
+                                        <div class="modal fade" id="exampleModal2" tabindex="-1">
+                                                <div class="modal-dialog myModal">
+                                                        <div class="modal-content">
+                                                                <div class="modal-header border-0 mb-4">
+                                                                        <button class="btn-close"
+                                                                                data-bs-dismiss="modal"></button>
+                                                                </div>
+                                                                <div class="modal-body text-center border-0">
+                                                                        <h3 class="fs-5 fw-bold mb-4">SEARCH
+                                                                        </h3>
+                                                                        <form class="px-4 pb-3 d-flex align-items-center gap-2"
+                                                                                autocomplete="off" spellcheck="false">
+                                                                                <input type="email" name="email"
+                                                                                        placeholder="Search Here..."
+                                                                                        class="form-control py-2">
+                                                                                <button
+                                                                                        class="btn btn-outline-dark">search</button>
+                                                                        </form>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                                class="text-decoration-none d-flex align-items-center gap-2 text-white fw-bold aModal ps-4 border-start border-white">
+                                                Sign up
+                                                <i class="bi bi-person-circle fs-4 text-white"></i>
+                                        </a>
+
+                                        <div class="modal fade" id="exampleModal" tabindex="-1">
+                                                <div class="modal-dialog myModal">
+                                                        <div class="modal-content">
+                                                                <div class="modal-header border-0 mb-4">
+                                                                        <button class="btn-close"
+                                                                                data-bs-dismiss="modal"></button>
+                                                                </div>
+                                                                <div class="modal-body text-center border-0">
+                                                                        <h3 class="fs-5 fw-bold mb-4">Log in or sign up
+                                                                        </h3>
+                                                                        <p class="fs-6 w-75 m-auto mb-3">Continue with
+                                                                                email or your Facebook or Google
+                                                                                account.
+                                                                        </p>
+                                                                        <form class="px-4" autocomplete="off"
+                                                                                spellcheck="false">
+                                                                                <input type="email" name="email"
+                                                                                        placeholder="Email Address*"
+                                                                                        class="form-control py-2 mb-4">
+                                                                                <button class="btn btn-dark w-100 py-2 rounded-5 mb-4
+                                                                                ">Continue</button>
+                                                                                <div class="w-100 line"></div>
+                                                                                <span
+                                                                                        class="pModal position-relative px-2 bg-white">or</span>
+                                                                                <button
+                                                                                        class="btn btn-outline-dark my-3 d-block w-100 py-2 rounded-5">
+                                                                                        <i
+                                                                                                class="bi bi-google pe-2"></i>
+                                                                                        Continue with Google
+                                                                                </button>
+                                                                                <button
+                                                                                        class="btn btn-outline-dark mb-3 mt-4 d-block w-100 py-2 rounded-5">
+                                                                                        <i
+                                                                                                class="bi bi-facebook pe-2 text-primary fs-5"></i>
+                                                                                        Continue with Google
+                                                                                </button>
+                                                                        </form>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <!-- end Modal -->
+                                </div>
+                        </div>
+                </header>
+
+                <section class="car-buying w-100 bg-black position-relative">
+                        <div class="w-100 h-50 h-md-100">
+                                <div class="container">
+                                        <div class="row justify-content-center">
+                                                <div
+                                                        class="text-center col-11 col-md-10 position-absolute top-50 left-50 content-car">
+                                                        <h2 class="w-65 text-white fw-bold fs-1 mx-auto mb-4 title-car">
+                                                                Car buying <br>
+                                                                shaped to your life
+                                                        </h2>
+                                                        <form autocomplete="off" spellcheck="false"
+                                                                class="rounded-5 bg-white overflow-hidden d-flex align-items-center ps-3 form-car m-auto">
+                                                                <i class="bi bi-search fs-5"></i>
+                                                                <input type="text"
+                                                                        placeholder="Search make, model, or type"
+                                                                        class="border-0 p-2 pe-5 formCar fs-6">
+                                                        </form>
+                                                        <div
+                                                                class="d-flex flex-wrap align-items-center justify-content-center gap-4 mt-5">
+                                                                <div
+                                                                        class="item-car rounded-3 d-flex flex-column align-items-center justify-content-center">
+                                                                        <i
+                                                                                class="bi bi-car-front-fill fs-1 text-warning"></i>
+                                                                        <a href="#" class="text-decoration-none d-flex
+                                                                        align-items-center gap-2 text-white">
+                                                                                Shop New
+                                                                                <i
+                                                                                        class="bi bi-chevron-right fs-car"></i>
+                                                                        </a>
+                                                                </div>
+                                                                <div
+                                                                        class="item-car rounded-3 d-flex flex-column align-items-center justify-content-center">
+                                                                        <i
+                                                                                class="bi bi-ev-front-fill fs-1 text-danger"></i>
+                                                                        <a href="#" class="text-decoration-none d-flex
+                                                                        align-items-center gap-2 text-white">
+                                                                                Shop Used
+                                                                                <i
+                                                                                        class="bi bi-chevron-right fs-car"></i>
+                                                                        </a>
+                                                                </div>
+                                                                <div
+                                                                        class="item-car rounded-3 d-flex flex-column align-items-center justify-content-center">
+                                                                        <i
+                                                                                class="bi bi-fuel-pump-diesel-fill fs-1 text-info"></i>
+                                                                        <a href="#" class="text-decoration-none d-flex
+                                                                        align-items-center gap-2 text-white">
+                                                                                Shop Electric
+                                                                                <i
+                                                                                        class="bi bi-chevron-right fs-car"></i>
+                                                                        </a>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="power pt-5">
+                        <div class="container-xxl">
+                                <div class="row justify-content-center gap-lg-4 gap-xl-0 mb-5 px-lg-5">
+                                        <div class="col-12 col-sm-10 col-md-8 col-lg-5">
+                                                <span class="badge text-bg-info p-2">New</span>
+                                                <h2 class="fs-4 my-3">Know your buying power <i
+                                                                class="bi bi-exclamation-circle"></i></h2>
+                                                <p>How much car can you afford? Find out, then see vehicles that match
+                                                        your budget
+                                                </p>
+                                                <figure>
+                                                        <img src="assets/img/buying-power.avif" alt="" class="w-100">
+                                                </figure>
+                                        </div>
+                                        <div
+                                                class="col-12 col-sm-10 col-md-8 col-lg-5 offset-xl-2 bg-white p-4 text-center rounded-2">
+                                                <h3>$ 27,537</h3>
+                                                <p>Est. buying power</p>
+                                                <p>Based on 8.21% APR</p>
+                                                <hr>
+                                                <div class="d-flex gap-3 my-4">
+                                                        <select class="form-select w-50">
+                                                                <option value="used">used car</option>
+                                                                <option value="new">new car</option>
+                                                        </select>
+                                                        <input type="text" value="$3,000" class="form-control w-50">
+                                                </div>
+                                                <div class="d-flex gap-3 my-4">
+                                                        <select class="form-select w-50">
+                                                                <option selected>Credit score</option>
+                                                                <option value="1">300 - 579</option>
+                                                                <option value="2">580 - 679</option>
+                                                                <option value="3">680 - 879</option>
+                                                                <option value="3">880 - 979</option>
+                                                        </select>
+                                                        <input type="text" value="$0" class="form-control w-50">
+                                                </div>
+                                                <div class="text-start form-switch mb-4">
+                                                        <input class="form-check-input" type="checkbox"
+                                                                id="flexSwitchCheckDefault">
+                                                        <label class="form-check-label ms-2"
+                                                                for="flexSwitchCheckDefault">Include trade-in</label>
+                                                </div>
+                                                <button class="btn btn-dark w-100 rounded-5 mb-3">see your
+                                                        matches</button>
+                                        </div>
+                                </div>
+                                <hr>
+                                <div
+                                        class="row justify-content-center justify-content-lg-around mt-5  text-center p-3 px-lg-5 gap-md-4">
+                                        <h2 class="fs-3 fw-bold col-12 mb-4">Featured tools</h2>
+                                        <div class="col-12 col-sm-10 col-md-5 bg-white rounded-3 p-3 p-md-5 m-1 mb-2">
+                                                <figure
+                                                        class="d-flex flex-row-reverse flex-md-column justify-content-between align-items-center gap-3">
+                                                        <img id="first-img" class="img-feature"
+                                                                src="assets/img/feature1.png" alt="">
+                                                        <h3 class="fw-bold mt-2">Find your fit</h3>
+                                                </figure>
+                                                <p class="text-start text-md-center">Not sure what your want? Answer a
+                                                        few questions to find what fits you best.</p>
+                                                <button class="btn btn-dark rounded-5 px-5 py-2">Start quiz</button>
+                                        </div>
+                                        <div class="col-12 col-sm-10 col-md-5 bg-white rounded-3 p-3 p-md-5 m-1 mb-2">
+                                                <figure
+                                                        class="d-flex flex-row-reverse flex-md-column justify-content-between align-items-center gap-3">
+                                                        <img class="img-feature" src="assets/img/feature2.png" alt="">
+                                                        <h3 class="fw-bold mt-2">Shop by budget</h3>
+                                                </figure>
+                                                <p class="text-start text-md-center">Save time and narrow down cars that
+                                                        fit your monthly payment and price point.</p>
+                                                <button class="btn btn-dark rounded-5 px-5 py-2">See your buying
+                                                        power</button>
+                                        </div>
+                                        <div class="col-12 col-sm-10 col-md-5 bg-white rounded-3 p-3 p-md-5 m-1 mb-2">
+                                                <figure
+                                                        class="d-flex flex-row-reverse flex-md-column justify-content-between align-items-center gap-3">
+                                                        <img class="img-feature" src="assets/img/feature3.png" alt="">
+                                                        <h3 class="fw-bold mt-2">Build and price</h3>
+                                                </figure>
+                                                <p class="text-start text-md-center">Choose the make, modal, trim, and
+                                                        options you want.</p>
+                                                <button class="btn btn-dark rounded-5 px-5 py-2">Build your car</button>
+                                        </div>
+                                        <div class="col-12 col-sm-10 col-md-5 bg-white rounded-3 p-3 p-md-5 m-1 mb-2">
+                                                <figure
+                                                        class="d-flex flex-row-reverse flex-md-column justify-content-between align-items-center gap-3">
+                                                        <img class="img-feature" src="assets/img/fwature4.png" alt="">
+                                                        <h3 class="fw-bold mt-2">Sell and trade</h3>
+                                                </figure>
+                                                <p class="text-start text-md-center">Get an offer in minutes, then cash
+                                                        out or trade in.</p>
+                                                <button class="btn btn-dark rounded-5 px-5 py-2">Learn more</button>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="bg-black">
+                        <div class="container-md text-center text-white py-5">
+                                <h2 class="mb-5">Why TrueCar?</h2>
+                                <div class="row justify-content-center gap-lg-5">
+                                        <div class="col-12 col-sm-10 col-md-5 col-lg-3 mb-5">
+                                                <figure>
+                                                        <img src="assets/img/why1.svg" alt="">
+                                                </figure>
+                                                <h4 class="my-4">Transparent pricing</h4>
+                                                <p>No surprises here. See how much you'll pay on cars you like.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-10 col-md-5 col-lg-3 mb-5">
+                                                <figure>
+                                                        <img src="assets/img/why2.svg" alt="">
+                                                </figure>
+                                                <h4 class="my-4">Minutes, not hours
+                                                </h4>
+                                                <p>Time saving tools to help you find the right car in a snap.
+                                                </p>
+                                        </div>
+                                        <div class="col-12 col-sm-10 col-md-5 col-lg-3 mb-5">
+                                                <figure>
+                                                        <img src="assets/img/why3.svg" alt="">
+                                                </figure>
+                                                <h4 class="my-4">Shop your way
+                                                </h4>
+                                                <p>Your own pace, your own space. Shop online where and when it's
+                                                        convenient for you.
+                                                </p>
+                                        </div>
+                                </div>
+                                <button class="btn btn-light rounded-5 px-4 py-2">Sign up</button>
+                        </div>
+                </section>
+
+                <section class="brand py-3">
+                        <div class="container-md text-center bg-white rounded-2 pt-5 pb-2">
+                                <h2 class="fw-bold fs-3 mb-4">Shop your favorite brand</h2>
+                                <div class="btn-group mt-1 mb-5">
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1"
+                                                autocomplete="off" checked>
+                                        <label class="btn btn-outline-dark rounded-start-5 py-2 px-4"
+                                                for="btnradio1">New Cars</label>
+
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2"
+                                                autocomplete="off">
+                                        <label class="btn btn-outline-dark rounded-end-5 py-2 px-4" for="btnradio2">Used
+                                                Cars</label>
+                                </div>
+                                <div class="row justify-content-center justify-content-lg-evenly gap-5 gap-lg-5 mb-2">
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand1.webp" alt="">
+                                                <span class="fw-semibold">Toyota</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand2.webp" alt="">
+                                                <span class="fw-semibold">BMW</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand3.webp" alt="">
+                                                <span class="fw-semibold">Chevrolet</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand4.webp" alt="">
+                                                <span class="fw-semibold">Honda</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand5.webp" alt="">
+                                                <span class="fw-semibold">Ford</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand6.webp" alt="">
+                                                <span class="fw-semibold">Audi</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand7.webp" alt="">
+                                                <span class="fw-semibold">Acura</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand8.webp" alt="">
+                                                <span class="fw-semibold">Hyuandai</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand9.webp" alt="">
+                                                <span class="fw-semibold">Dodge</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand10.webp" alt="">
+                                                <span class="fw-semibold">Mercedes-Benz</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand11.webp" alt="">
+                                                <span class="fw-semibold">Kia</span>
+                                        </div>
+                                        <div
+                                                class="col-5 col-md-3 col-lg-2 d-flex flex-column align-items-center justify-content-center gap-3 p-3 shadow rounded-2">
+                                                <img src="assets/img/brand12.webp" alt="">
+                                                <span class="fw-semibold">Lexus</span>
+                                        </div>
+                                </div>
+                                <button
+                                        class="btn btn-outline-dark rounded-5 mt-5 mb-4 px-5 py-2 d-flex align-items-center justify-content-center m-auto gap-2">see
+                                        more <i class="bi bi-chevron-down fs-6 mt-1"></i></button>
+                                <p class="fs-p mx-auto my-3">*Vehicle incentives and rebates are programs made available
+                                        by car manufacturers to encourage vehicle sales by providing consumers with cash
+                                        allowances or favorable financing/lease rates. Incentives can vary by location,
+                                        vehicle configuration, as well as the buyer's method of payment (cash purchase,
+                                        financing, lease). Some incentives can be stacked with other incentive programs,
+                                        and some have eligibility conditions that must be met to qualify. Additional
+                                        incentives are sometimes targeted to customer segment groups like college
+                                        graduates, military members, etc. Incentives are normally subject to change and
+                                        governed by specific eligibility rules. Please see your local dealer for details
+                                        on incentives that might be available to you.
+                                </p>
+                        </div>
+                </section>
+
+                <section class="sell">
+                        <div class="container-md">
+                                <div class="d-flex justify-content-center align-items-center flex-wrap">
+                                        <div
+                                                class="sell1 rounded-2 w-100 mb-3 mb-md-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                                <h3 class="position-relative z-3">Sell and trade</h3>
+                                                <p class="position-relative z-3 mt-2 mb-3">Answer a few questions and
+                                                        get an instant offer.
+                                                </p>
+                                                <button class="btn btn-light rounded-5 py-1 px-4 position-relative z-3">Learn
+                                                        more</button>
+                                        </div>
+                                        <div
+                                                class="sell2 rounded-2 w-100 mb-3 mb-md-0 d-flex flex-column justify-content-center align-items-center text-white">
+                                                <h3 class="position-relative z-3">Military savings
+                                                </h3>
+                                                <p class="position-relative z-3 mt-2 mb-3 w-50 text-center">Find savings
+                                                        and incentives tailored.
+                                                </p>
+                                                <button class="btn btn-light rounded-5 py-1 px-4 position-relative z-3">Learn
+                                                        more</button>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="type py-3">
+                        <div class="container-md text-center bg-white rounded-2 pt-5 pb-2">
+                                <h2 class="fw-bold fs-3 mb-5">Top-rated cars by type</h2>
+                                <div class="row justify-content-center">
+                                        <div class="col-12 col-lg-10">
+                                                <div id="carouselExampleInterval"
+                                                        class="carousel slide carousel-fade mb-5"
+                                                        data-bs-ride="carousel">
+                                                        <div class="carousel-inner">
+                                                                <div class="carousel-item active"
+                                                                        data-bs-interval="3000">
+                                                                        <img src="assets/img/type5.webp"
+                                                                                class="d-block w-100 object-fit-cover rounded-3 img-carousel"
+                                                                                alt="...">
+                                                                </div>
+                                                                <div class="carousel-item" data-bs-interval="3000">
+                                                                        <img src="assets/img/type1.webp"
+                                                                                class="d-block w-100 object-fit-cover rounded-3 img-carousel"
+                                                                                alt="...">
+                                                                </div>
+                                                                <div class="carousel-item" data-bs-interval="3000">
+                                                                        <img src="assets/img/type2.webp"
+                                                                                class="d-block w-100 object-fit-cover rounded-3 img-carousel"
+                                                                                alt="...">
+                                                                </div>
+                                                                <div class="carousel-item" data-bs-interval="3000">
+                                                                        <img src="assets/img/type3.webp"
+                                                                                class="d-block w-100 object-fit-cover rounded-3 img-carousel"
+                                                                                alt="...">
+                                                                </div>
+                                                                <div class="carousel-item" data-bs-interval="3000">
+                                                                        <img src="assets/img/type4.webp"
+                                                                                class="d-block w-100 object-fit-cover rounded-3 img-carousel"
+                                                                                alt="...">
+                                                                </div>
+                                                                <div class="carousel-item" data-bs-interval="3000">
+                                                                        <img src="assets/img/type6.webp"
+                                                                                class="d-block w-100 object-fit-cover rounded-3 img-carousel"
+                                                                                alt="...">
+                                                                </div>
+                                                        </div>
+                                                        <button class="carousel-control-prev"
+                                                                data-bs-target="#carouselExampleInterval"
+                                                                data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                        </button>
+                                                        <button class="carousel-control-next"
+                                                                data-bs-target="#carouselExampleInterval"
+                                                                data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                        </button>
+                                                </div>
+                                                <button class="btn btn-outline-dark rounded-5 py-2 px-5 mb-4">See
+                                                        all</button>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="review py-3">
+                        <div class="container-md text-center bg-white rounded-2 pt-5 pb-2">
+                                <h2 class="fw-bold fs-3 mb-5">Get car reviews from our experts</h2>
+                                <div class="row justify-content-center">
+                                        <div class="col-12 col-lg-10">
+                                                <!-- Swiper -->
+                                                <div class="swiper mySwiper mb-5 user-select-none">
+                                                        <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                        <img src="assets/img/review1.avif" alt="">
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                        <img src="assets/img/review2.avif" alt="">
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                        <img src="assets/img/review3.avif" alt="">
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                        <img src="assets/img/review4.avif" alt="">
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                        <img src="assets/img/review5.avif" alt="">
+                                                                </div>
+                                                        </div>
+                                                        <div class="swiper-pagination"></div>
+                                                </div>
+                                                <button class="btn btn-outline-dark rounded-5 py-2 px-5 mb-4">See
+                                                        all</button>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="review py-3">
+                        <div class="container-md text-center bg-white rounded-2 py-5">
+                                <h2 class="fw-bold fs-3 mb-5">What people are saying</h2>
+                                <div class="row justify-content-center justify-content-md-evenly">
+                                        <div
+                                                class="col-10 col-md-5 bg-light p-5 mb-4 rounded-2 text-start position-relative">
+                                                <p class="fs-5 ps-3">“@TrueCar seriously helped me with my car deal.
+                                                        Anyone looking to get a car should just use it. #lifesaver”</p>
+                                                <span class="fw-bold d-block mb-3 ps-3">Athziri</span>
+                                                <a class="text-decoration-none text-dark ps-3"
+                                                        href="#">@Cee_OhWhattt</a>
+                                                <img src="assets/img/people1.avif" alt=""
+                                                        class="rounded-circle change-position">
+                                        </div>
+                                        <div
+                                                class="col-10 col-md-5 bg-light p-5 mb-4 rounded-2 text-start position-relative">
+                                                <p class="fs-5 ps-3">“I researched and discovered my amazing 🚗 on
+                                                        @TrueCar, long before buying cars online was popular.”</p>
+                                                <span class="fw-bold d-block mb-3 ps-3">Lee Tyndall</span>
+                                                <a class="text-decoration-none text-dark ps-3" href="#">@photoguy_nc</a>
+                                                <img src="assets/img/people2.avif" alt=""
+                                                        class="rounded-circle change-position">
+                                        </div>
+                                        <div
+                                                class="col-10 col-md-5 bg-light p-5 mb-4 rounded-2 text-start position-relative">
+                                                <p class="fs-5 ps-3">“TrueCar is awesome. Reduces all the annoying parts
+                                                        of the new car purchase.”</p>
+                                                <span class="fw-bold d-block mb-3 ps-3">Rajesh Kanna</span>
+                                                <a class="text-decoration-none text-dark ps-3"
+                                                        href="#">@vrajeshkanna1</a>
+                                                <img src="assets/img/people3.avif" alt=""
+                                                        class="rounded-circle change-position">
+                                        </div>
+                                        <div
+                                                class="col-10 col-md-5 bg-light p-5 mb-4 rounded-2 text-start position-relative">
+                                                <p class="fs-5 ps-3">“Did you check out @TrueCar? I used them. Amazing”
+                                                </p>
+                                                <span class="fw-bold d-block mb-3 ps-3">Monte Pittman
+                                                </span>
+                                                <a class="text-decoration-none text-dark ps-3"
+                                                        href="#">@montepittman</a>
+                                                <img src="assets/img/people4.avif" alt=""
+                                                        class="rounded-circle change-position">
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <section class="review py-3">
+                        <div class="container-md text-center bg-white rounded-2 py-5">
+                                <h2 class="fw-bold fs-3 mb-5">Resources</h2>
+                                <div class="d-flex justify-content-center gap-5 mb-2">
+                                        <a href="#" class="text-decoration-none text-dark fw-bold">
+                                                Used cars
+                                        </a>
+                                        <a href="#"
+                                                class="text-decoration-none text-dark fw-bold border-bottom border-3 pb-2 px-3 border-primary">
+                                                Helpful links
+                                        </a>
+                                        <a href="#" class="text-decoration-none text-dark fw-bold">
+                                                New cars
+                                        </a>
+                                </div>
+                                <div class="row justify-content-center">
+                                        <div class="col-12 col-lg-10">
+                                                <div class="accordion accordion-flush" id="accordionFlushExample20">
+                                                        <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed fw-bold"
+                                                                                data-bs-toggle="collapse"
+                                                                                data-bs-target="#flush-collapseOne1">
+                                                                                Reviews
+                                                                        </button>
+                                                                </h2>
+                                                                <div id="flush-collapseOne1"
+                                                                        class="accordion-collapse collapse"
+                                                                        data-bs-parent="#accordionFlushExample20">
+                                                                        <div
+                                                                                class="accordion-body d-flex justify-content-between">
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Acura RDX</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">BMW X3</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Ford
+                                                                                                Maverick</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Hyundai
+                                                                                                Elantra</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Kia EV6</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Porsche
+                                                                                                Macan</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Volkswagen
+                                                                                                ID.4</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Audi Q5</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Ford Bronco</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Genesis GV70</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Hyundai Santa
+                                                                                                Fe</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Kia K5</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Subaru Forester</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Volkswagen
+                                                                                                Taos</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                BMW i4</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Ford
+                                                                                                EcoSport</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Honda Civic</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Jeep
+                                                                                                Gladiator</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Polestar 2</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Subaru
+                                                                                                Outback</a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed fw-bold"
+                                                                                data-bs-toggle="collapse"
+                                                                                data-bs-target="#flush-collapseTwo2">
+                                                                                Comparisons
+                                                                        </button>
+                                                                </h2>
+                                                                <div id="flush-collapseTwo2"
+                                                                        class="accordion-collapse collapse"
+                                                                        data-bs-parent="#accordionFlushExample20">
+                                                                        <div
+                                                                                class="accordion-body d-flex justify-content-between">
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">BMW i4 vs.
+                                                                                                Tesla</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Honda Accord
+                                                                                                vs. Toyota</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Honda Pilot vs.
+                                                                                                Toyota</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Polestar 2 vs.
+                                                                                                Tesla</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Ford Bronco vs.
+                                                                                                Jeep</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Honda CR-V vs.
+                                                                                                Toyota</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Hyundai IONIQ 5 vs.
+                                                                                                Kia</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Porsche Taycan vs.
+                                                                                                Tesla</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Ford Maverick vs.
+                                                                                                Hyundai</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Honda Odyssey vs.
+                                                                                                Toyota</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Hyundai Palisade vs.
+                                                                                                Kia</a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed fw-bold"
+                                                                                data-bs-toggle="collapse"
+                                                                                data-bs-target="#flush-collapseThree3">
+                                                                                Inventory by make
+                                                                        </button>
+                                                                </h2>
+                                                                <div id="flush-collapseThree3"
+                                                                        class="accordion-collapse collapse"
+                                                                        data-bs-parent="#accordionFlushExample20">
+                                                                        <div
+                                                                                class="accordion-body d-flex justify-content-between">
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Acura
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">BMW
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Chevrolet
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">FIAT
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">GMC
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Hyundai
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Jaguar
+                                                                                                Inventory</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Alfa Romeo Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Buick Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+
+                                                                                                Chrysler Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Hyundai Santa
+                                                                                                Fe</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Ford Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Honda Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Volkswagen
+                                                                                                Taos</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                BMW i4</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Ford
+                                                                                                EcoSport</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Honda Civic</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Jeep
+                                                                                                Gladiator</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Polestar 2</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Subaru
+                                                                                                Outback</a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                                <h2 class="accordion-header">
+                                                                        <button class="accordion-button collapsed fw-bold"
+                                                                                data-bs-toggle="collapse"
+                                                                                data-bs-target="#flush-collapseFour4">
+                                                                                Browse inventory
+                                                                        </button>
+                                                                </h2>
+                                                                <div id="flush-collapseFour4"
+                                                                        class="accordion-collapse collapse"
+                                                                        data-bs-parent="#accordionFlushExample20">
+                                                                        <div
+                                                                                class="accordion-body d-flex justify-content-between">
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">California
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Texas
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Florida
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">New York
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Pennsylvania
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Illinois
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Ohio
+                                                                                                Inventory</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Georgia
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Michigan
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Genesis GV70</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">New Jersey
+                                                                                                Inventory</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Kia K5</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Subaru Forester</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Volkswagen
+                                                                                                Taos</a>
+                                                                                </div>
+                                                                                <div
+                                                                                        class="d-flex flex-column align-items-start gap-4 py-3">
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                BMW i4</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Ford
+                                                                                                EcoSport</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Honda Civic</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Jeep
+                                                                                                Gladiator</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">
+                                                                                                Polestar 2</a>
+                                                                                        <a class="text-decoration-none text-muted fw-semibold"
+                                                                                                href="#">Subaru
+                                                                                                Outback</a>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+
+                <footer class="bg-black pt-3 pb-4">
+                        <div class="container-md p-4 p-md-0">
+                                <div class="row py-4 justify-content-center justify-content-md-between">
+                                        <div
+                                                class="col-12 col-md-2 d-flex flex-column align-items-start gap-3 mb-5 mb-md-0 border-bottom pb-5 border-md-0">
+                                                <h3 class="fs-5 text-white">Products</h3>
+                                                <a href="#">Used</a>
+                                                <a href="#">New</a>
+                                                <a href="#">Sell Your Car</a>
+                                                <a href="#">EV</a>
+                                                <a href="#">Military</a>
+                                                <a href="#">Buy Online</a>
+                                                <a href="#">Site Map</a>
+                                        </div>
+                                        <div
+                                                class="col-12 col-md-2 d-flex flex-column align-items-start gap-3 mb-5 mb-md-0 border-bottom pb-5 border-md-0">
+                                                <h3 class="fs-5 text-white">Resources</h3>
+                                                <a href="#">Blog</a>
+                                                <a href="#">FAQ</a>
+                                                <a href="#">Contact Us</a>
+                                        </div>
+                                        <div
+                                                class="col-12 col-md-2 d-flex flex-column align-items-start gap-3 mb-5 mb-md-0 border-bottom pb-5 border-md-0">
+                                                <h3 class="fs-5 text-white">Work TrueCar</h3>
+                                                <a href="#">Dealers</a>
+                                                <a href="#">OEM</a>
+                                                <a href="#">Partners</a>
+                                        </div>
+                                        <div
+                                                class="col-12 col-md-2 d-flex flex-column align-items-start gap-3 mb-5 mb-md-0 border-bottom pb-5 border-md-0">
+                                                <h3 class="fs-5 text-white">About</h3>
+                                                <a href="#">TrueCar, Inc.</a>
+                                                <a href="#">Team</a>
+                                                <a href="#">Careers</a>
+                                                <a href="#">Press</a>
+                                                <a href="#">Developers</a>
+                                                <a href="#">Investors</a>
+                                        </div>
+                                </div>
+                                <div class="line mt-1 mb-5 d-none d-md-block"></div>
+                                <div class="footer-info">
+                                        <div>
+                                                <p>
+                                                        © 2024 • This is a demo from <strong
+                                                                class="text-uppercase">truecar.com</strong> • Coded
+                                                        by
+                                                        <strong class="text-uppercase">RezaGeshani</strong>
+                                                </p>
+                                                <div>
+                                                        <i class="bi bi-telephone-fill"></i>
+                                                        <a href="tel:09934774358">09934774358</a>
+                                                </div>
+                                                <div>
+                                                        <i class="bi bi-linkedin"></i>
+                                                        <a
+                                                                href="https://www.linkedin.com/in/reza-geshani-web">reza-geshani-web</a>
+                                                </div>
+                                                <div>
+                                                        <i class="bi bi-instagram"></i>
+                                                        <a
+                                                                href="https://www.instagram.com/rezageshani_web">@rezageshani_web</a>
+                                                </div>
+                                                <div>
+                                                        <i class="bi bi-github"></i>
+                                                        <a href="https://github.com/RezaGeshaniWeb/">RezaGeshaniWeb</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </footer>
+
+                <div class="fixed-info">
+                        <div class="circle">
+                                <img src="assets/img/me5.webp" alt="">
+                        </div>
+                        <strong>Frontend Developer</strong>
+                        <a href="https://www.linkedin.com/in/reza-geshani-web"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.instagram.com/rezageshani_web"><i class="bi bi-instagram"></i></a>
+                        <a href="https://github.com/RezaGeshaniWeb/"><i class="bi bi-github"></i></a>
+                        <a href="mailto:rezageshaniweb@gmail.com"><i class="bi bi-envelope-at"></i></a>
+                </div>
+        </main>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- Bootstrap Js -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+                var swiper = new Swiper(".mySwiper", {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        freeMode: true,
+                        pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                        },
+                });
+        </script>
+</body>
+
+</html>
